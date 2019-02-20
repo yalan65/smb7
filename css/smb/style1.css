@@ -1125,3 +1125,28 @@ ul.brochure-sitemap{    font-size: 14px;
 @media screen and (max-width:360px){ 
 .ebrochure .caption {margin-top:-65px;z-index:1000;}
 } 
+
+table.custtable {
+  border: 2px solid #D3D3D3;
+  background-color: #ccffff;
+  width: 100%;
+  text-align: center;
+  border-collapse: collapse;
+}
+table.custtable td, table.custtable th {
+  border: 1.5px solid #D3D3D3;
+  padding: 3px 2px;
+}
+table.custtable tbody td {
+  font-size: 14px;
+}
+
+table.custtable thead {
+  background: #A40808;
+}
+
+table.custtable th {
+ background-color: #007953
+}
+
+.table-hover1>tbody>tr:hover{background-color:#d5f7a3}

@@ -99,12 +99,21 @@ margin-left: 420px !important;
 margin-left: 460px !important;
 }
 
+
+.ml610 {
+margin-left: 610px !important;
+}
+
 .ml760 {
 margin-left: 760px !important;
 }
 
 .ml820 {
 margin-left: 820px !important;
+}
+
+.ml850 {
+margin-left: 850px !important;
 }
 
 .mlm50 {
@@ -115,6 +124,11 @@ margin-left: -50px !important;
 .mlm40 {
     
 margin-left: -40px !important;
+}
+
+.mlm30 {
+    
+margin-left: -30px !important;
 }
 
 .mr5 {
@@ -181,12 +195,20 @@ margin-top: 30px;
 margin-top: 45px;
 }
 
+.mt49 {
+margin-top: 49px;
+}
+
 .mb30 {
 margin-bottom: 30px;
 }
 
 .mb120 {
 margin-bottom: 120px;
+}
+
+.mtm10 {
+ margin-top: -10px;
 }
 
 .mtm15 {
@@ -974,6 +996,14 @@ div.aligncenter {
   position: relative;
   bottom: 10%;
   right: 0;
-  transform: translateY(80%);
+  transform: translateY(50%);
 }
 /* End captions */
+
+/* for aligning login info */
+.float-vertical-align1 {
+  position: relative;
+  bottom: 10%;
+  right: 0;
+  transform: translateY(60%);
+}
