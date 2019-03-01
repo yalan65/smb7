@@ -59,7 +59,7 @@ var addedOne = false,
     customPin = L.divIcon({
     className: 'location-pin',
     //html: '<img src="https://static.robinpowered.com/roadshow/robin-avatar.png"><div class="pin"></div><div class="pulse"></div>',
-    html: '<img src="images/red.png"><div class="pin"></div><div class="pulse"></div>',
+    html: '<img src="images/orange.png"><div class="pin"></div><div class="pulse"></div>',
     iconSize: [30, 30],
     iconAnchor: [0, 0]
   });
