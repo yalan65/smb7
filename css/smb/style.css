@@ -76,6 +76,7 @@ padding-bottom: 30px;
 .ml18 {
 margin-left: 18px !important;
 }
+.ml20 {margin-left: 20px !important;}
 
 .ml25 {margin-left: 25px !important;}
 
@@ -103,6 +104,11 @@ margin-left: 460px !important;
 .ml610 {
 margin-left: 610px !important;
 }
+
+.ml670 {
+margin-left: 670px !important;
+}
+
 
 .ml760 {
 margin-left: 760px !important;
@@ -347,6 +353,11 @@ color:#231f20;
 .navbar .navbar-nav li.active a:hover{
 	color:#231f20;
 	 background-color: #39b54a!important;
+}
+
+.navbar .navbar-nav li.dropdown1 a:hover{
+	color:#231f20;
+	 background-color: red!important;
 }
 
 .navbar .dropdown.open ul {

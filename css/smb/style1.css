@@ -1128,7 +1128,6 @@ ul.brochure-sitemap{    font-size: 14px;
 
 table.custtable {
   border: 2px solid #D3D3D3;
-  background-color: #ccffff;
   width: 100%;
   text-align: center;
   border-collapse: collapse;
@@ -1146,7 +1145,7 @@ table.custtable thead {
 }
 
 table.custtable th {
- background-color: #007953
+
 }
 
-.table-hover1>tbody>tr:hover{background-color:#d5f7a3}
+.table-hover1>tbody>tr:hover{background-color:#F0F0F0}
