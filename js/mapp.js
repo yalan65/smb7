@@ -78,33 +78,22 @@ function onMapClick(e) {
 
 map.on('click', onMapClick);
 // Lookup neighbors https://github.com/mapbox/leaflet-knn
-
+/*
 var marker = L.marker(map.unproject([m.x, m.y], map.getMaxZoom()), {
     icon: customPin
   }).addTo(map);
 //window.alert(m.x);
 //window.alert(m.y)
-
-
-var marker2 = L.marker(map.unproject([k.ao, k.bo], map.getMaxZoom()),{
-    icon: customPin
-  } ).addTo(map);
+*/
 
 var marker3 = L.marker(map.unproject([2000.5, 1000.5], map.getMaxZoom()),{
     icon: customPin
   }).addTo(map);
 
 // Add pop up for click
-marker.bindPopup("<b>Finish Cutting</b><br>Steel Metal");
-marker2.bindPopup("<b>PART ID:</b><br>PT211-3156-121-11<br>At H55");
-marker3.bindPopup("<b>PART ID:</b><br>PC261-3156-121-11<br>Near Pillar 1</b>");
 
-marker2.on('mouseover', function (e) {
-            this.openPopup();
-});
-marker2.on('mouseout', function (e) {
-            this.closePopup();
-});
+marker3.bindPopup("<b>PART ID:</b><br>PC261-3156-121-11<br>Location: H55<br>DATE: 23/1/2019</b>");
+
 marker3.on('mouseover', function (e) {
             this.openPopup();
 });
