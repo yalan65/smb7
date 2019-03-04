@@ -261,14 +261,14 @@
 	text-indent: 1px;
 	}
 .leaflet-control-zoom-out {
-	font-size: 20px;
+	font-size: 30px;
 	}
 
 .leaflet-touch .leaflet-control-zoom-in {
-	font-size: 22px;
+	font-size: 32px;
 	}
 .leaflet-touch .leaflet-control-zoom-out {
-	font-size: 24px;
+	font-size: 34px;
 	}
 
 
